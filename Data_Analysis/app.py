@@ -11,7 +11,7 @@ dataset = st.container() # Creating a container for the dataset.
 features = st.container() # Creating a container for the features.
 
 with header: # Creating a header.
-    image = Image.open('./assets/logo.png') # Opening the logo image.
+    image = Image.open('./assets/picture.png') # Opening the logo image.
     st.sidebar.image(image, use_column_width=True) # Displaying the logo image.
     st.sidebar.markdown("<h1 style='text-align: center; color: black;'>DATA TEAM</h1>", unsafe_allow_html=True) # Creating a header.
     menu = ["Bosh Sahifa", "Ma'lumotlar Tahlili", "Jamoa Haqida", "Aloqa"]
