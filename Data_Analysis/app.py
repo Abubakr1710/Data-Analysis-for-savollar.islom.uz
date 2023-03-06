@@ -12,7 +12,7 @@ dataset = st.container() # Creating a container for the dataset.
 features = st.container() # Creating a container for the features.
 
 with header: # Creating a header.
-    st.sidebar.image('assets/picture.png', use_column_width=True) # Adding the logo image to the sidebar.
+    #st.sidebar.image('assets/picture.png', use_column_width=True) # Adding the logo image to the sidebar.
     st.sidebar.markdown("<h1 style='text-align: center; color: black;'>DATA TEAM</h1>", unsafe_allow_html=True) # Creating a header.
     menu = ["Bosh Sahifa", "Ma'lumotlar Tahlili", "Jamoa Haqida", "Aloqa"]
     choice = st.sidebar.selectbox('Menu', menu)
