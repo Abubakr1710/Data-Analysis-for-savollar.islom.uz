@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run Data_Analysis/app.py
