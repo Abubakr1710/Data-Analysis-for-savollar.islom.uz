@@ -2,7 +2,7 @@ import streamlit as st # Importing streamlit, a python library for creating web 
 import pandas as pd # Importing pandas, a python library for data analysis.
 import matplotlib.pyplot as plt # Importing matplotlib, a python library for data visualization.
 import seaborn as sns # Importing seaborn, a python library for data visualization.
-from password import pcode # Importing the password.py file.
+from passcode import pcode # Importing the password.py file.
 from graph_page import show_data, graph_plot, graph_plot2 # Importing the graph_page.py file.
 from PIL import Image # Importing the PIL library for image processing.
 
