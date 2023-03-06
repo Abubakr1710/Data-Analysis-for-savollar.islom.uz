@@ -5,14 +5,15 @@ import seaborn as sns # Importing seaborn, a python library for data visualizati
 from password import pcode # Importing the password.py file.
 from graph_page import show_data, graph_plot, graph_plot2 # Importing the graph_page.py file.
 from PIL import Image # Importing the PIL library for image processing.
+import os # Importing the os library for operating system functions.
 
 header = st.container() # Creating a container for the header.
 dataset = st.container() # Creating a container for the dataset.
 features = st.container() # Creating a container for the features.
 
 with header: # Creating a header.
-    img = Image.open('assets/picture.png') # Opening the logo image.
-    st.sidebar.image(img, width=300) # Displaying the logo image.
+    img_path = os.path.join(os.getcwd(), 'assets', 'picture.png') # Creating a variable for the logo image.
+    st.sidebar.image(img_path, use_column_width=True) # Adding the logo image to the sidebar.
     st.sidebar.markdown("<h1 style='text-align: center; color: black;'>DATA TEAM</h1>", unsafe_allow_html=True) # Creating a header.
     menu = ["Bosh Sahifa", "Ma'lumotlar Tahlili", "Jamoa Haqida", "Aloqa"]
     choice = st.sidebar.selectbox('Menu', menu)
