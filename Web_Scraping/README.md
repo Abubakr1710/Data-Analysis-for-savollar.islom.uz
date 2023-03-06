@@ -1,1 +1,1 @@
-<h1><center>**WEB SCRAPING SECTION**</center></h1>
+<h1><center>WEB SCRAPING SECTION</center></h1>
