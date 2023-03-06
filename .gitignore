@@ -4,6 +4,6 @@
 env/*
 /env
 
-password.py
-password.py/*
-/password.py
+# password.py
+# password.py/*
+# /password.py
