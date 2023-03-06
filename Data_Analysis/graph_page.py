@@ -44,7 +44,7 @@ def graph_plot2():
 
     fig = px.bar(covid, x = 'Country', y = 'Confirmed', color = 'Country', range_y=[0,35000], animation_frame="Date", animation_group="Country") # Creating a bar plot.
     
-    fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 30 # Setting the animation speed.
+    fig.layout.updatemenus[0].buttons[0].args[1]["frame"]["duration"] = 10 # Setting the animation speed.
     fig.layout.updatemenus[0].buttons[0].args[1]["transition"]["duration"] = 5 # Setting the animation speed.
 
     fig.update_layout(width = 800)
