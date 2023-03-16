@@ -4,3 +4,4 @@ Pillow==9.4.0
 plotly==5.13.1
 seaborn==0.12.2
 streamlit==1.19.0
+#please install the following packages manually: Beautifulsoup
