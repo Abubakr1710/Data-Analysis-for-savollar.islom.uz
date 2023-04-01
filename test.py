@@ -18,7 +18,9 @@ choice = st.sidebar.selectbox('Menu', menu)
 
 if choice == "Bosh Sahifa":
     st.markdown("<h1 style='text-align: center; color: black;'>BOSH SAHIFA</h1>", unsafe_allow_html=True) # Creating a header.
-    #st.dataframe(df, use_container_width=True)
+    st.markdown("<h5 style='text-align: center; color: black;'>UZDS guruhi tomonidan savollar.islom.uz veb ilovasi uchun tayyorlagan Ma'lumotlar tahlili.</h5>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: black;'>Tahlil haqida</h2>", unsafe_allow_html=True)
+    st.markdown("<h5 style='text-align: center; color: black;'>Tahlil savolllar.islom.uz ilovasiga 2006-2022 yillar oralig'ida berilgan savollar va javoblarlar, savol berilagan vaqt hamda ko'rishlar soni orqali tuzildi. Umumiy savollar soni: 71607. Ilovaga umumiy tashrif buyurganlar soni: 181808962. Asosiy bo'limlar: Turli Savollar, Dolzarb Savollar, Oila va Turmush hamda Halol va Harom. Ilova orqali 2016-2021 yillar oralig'ida yiliga o'rtacha 6000-6500 savolga javob berilgan. 2022-yilda esa 4700 savol kelib tushgan. 2022-yilda eng ko'p savollar Turli Savollar(1011), Halol va Harom(657), Moliya va Tijorat(525), Oila va Turmush(511), Namoz(383) bo'limida.</h5>", unsafe_allow_html=True)
 
 
 
