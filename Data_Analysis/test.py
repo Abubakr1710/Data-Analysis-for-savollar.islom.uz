@@ -3,7 +3,7 @@ import pandas as pd
 import io
 st.cache(allow_output_mutation=True)
 
-df = pd.read_csv('./new_data.csv')
+df = pd.read_csv('new_data.csv')
 udf = df.copy()
 ydf = df.copy()
 bdf = df.copy()
