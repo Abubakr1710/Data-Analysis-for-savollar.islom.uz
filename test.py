@@ -4,8 +4,8 @@ import io
 from pathlib import Path
 st.cache(allow_output_mutation=True)
 
-data = Path('new_data.csv').parents[0] / 'new_data.csv'
-df = pd.read_csv(data, encoding='utf-8')
+#data = Path('new_data.csv').parents[0] / 'Data-Analysis-for-savollar.islom.uz/Data_Analysis/new_data.csv'
+df = pd.read_csv('new_data.csv', encoding='utf-8')
 udf = df.copy()
 ydf = df.copy()
 bdf = df.copy()
