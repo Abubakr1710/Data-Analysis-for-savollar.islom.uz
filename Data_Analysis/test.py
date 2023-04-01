@@ -1,9 +1,11 @@
 import streamlit as st
 import pandas as pd
 import io
+from pathlib import Path
 st.cache(allow_output_mutation=True)
 
-df = pd.read_csv('new_data.csv')
+data = Path('new_data.csv').parents[0] / 'new_data.csv'
+df = pd.read_csv(data, encoding='utf-8')
 udf = df.copy()
 ydf = df.copy()
 bdf = df.copy()
