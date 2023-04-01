@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+import io
 
 df = pd.read_csv('./new_data.csv')
 udf = df.copy()
